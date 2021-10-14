@@ -11,8 +11,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 30%;
+    justify-content: center;
 }
+
+.container-left{
+    margin-left: 300px;
+
+}
+
+.container-right{
+    margin-right: 300px;
+}
+
+.text-eq{
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    padding-top: 14px;
+    background-color: #0C3370;
+    color:white;
+    cursor: pointer;
+}
+
+.text-eq:hover{
+    color: #F95D23;
+}
+
 #container-eq-1{
     display: flex;
     flex-direction: row;
