@@ -16,11 +16,31 @@
 
 .container-left{
     margin-left: 300px;
+    cursor: pointer;
+}
 
+.container-left:hover{
+   
+    color: #F95D23;
+    transform: scale(1.2); /* (120% zoom)*/
+}
+
+.container-center{
+    cursor:pointer;
+}
+
+.container-center:hover{
+    transform: scale(1.2); /* (120% zoom)*/
 }
 
 .container-right{
     margin-right: 300px;
+    cursor: pointer;
+}
+
+.container-right:hover{
+    cursor: pointer;
+    transform: scale(1.2); /* (120% zoom)*/
 }
 
 .text-eq{
@@ -53,6 +73,7 @@
 #img-eq-1 {
     width:200px;
     height:200px ;
+    cursor: pointer;
 }
 
 #img-eq-2 {
