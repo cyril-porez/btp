@@ -7,6 +7,55 @@
 /*--------------------fin-------------------------*/
 
 /*---------------equipe.html----------------*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+#container-eq-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container-eq-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#img-eq-1 {
+    width:200px;
+    height:200px ;
+}
+
+#img-eq-2 {
+    width:200px;
+    height:200px ;
+}
+
+#img-eq-3 {
+    width:200px;
+    height:200px ;
+}
+
+#img-eq-4 {
+    width:200px;
+    height:200px ;
+}
+
+#img-eq-5 {
+    width:200px;
+    height:200px ;
+}
+
+#img-eq-6 {
+    width:200px;
+    height:200px ;
+}
+
 
 /*--------------------fin--------------------*/
 
