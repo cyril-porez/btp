@@ -3,6 +3,22 @@
 /*--------------------fin--------------------*/
 
 /*---------------presentation.html----------------*/
+#container-global {
+  width: 900px;
+}
+
+#col-gauche {
+width: 250px;
+float: left;
+text-align: center;
+position: fixed;
+}
+
+#col-droite {
+  margin-left: 500px;
+
+  background-color: white;
+}
 
 /*--------------------fin-------------------------*/
 
