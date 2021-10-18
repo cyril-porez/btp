@@ -45,6 +45,7 @@
 
 .text-eq{
     border: 1px solid black;
+    border-radius: 20px;
     text-align: center;
     height: 30px;
     padding-top: 14px;
@@ -70,35 +71,10 @@
     padding-top: 20px;
 }
 
-#img-eq-1 {
+.img-eq-2 {
     width:200px;
     height:200px ;
-    cursor: pointer;
-}
-
-#img-eq-2 {
-    width:200px;
-    height:200px ;
-}
-
-#img-eq-3 {
-    width:200px;
-    height:200px ;
-}
-
-#img-eq-4 {
-    width:200px;
-    height:200px ;
-}
-
-#img-eq-5 {
-    width:200px;
-    height:200px ;
-}
-
-#img-eq-6 {
-    width:200px;
-    height:200px ;
+    border-radius: 50px;
 }
 
 
