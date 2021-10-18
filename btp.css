@@ -8,17 +8,27 @@
 }
 
 #col-gauche {
-width: 250px;
+width: 400px;
 float: left;
 text-align: center;
 position: fixed;
+margin-top: 300px;
+margin-left: 100px;
+font-size: 28px;
 }
 
 #col-droite {
-  margin-left: 500px;
+  margin-left: 800px;
 
   background-color: white;
 }
+
+.metiers {
+  width: 600px;
+  height: 400px;
+}
+
+
 
 /*--------------------fin-------------------------*/
 
