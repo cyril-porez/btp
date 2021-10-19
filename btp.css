@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---------------accueil.html----------------*/
 
 /*--------------------fin--------------------*/
@@ -9,6 +10,110 @@
 /*---------------equipe.html----------------*/
 
 /*--------------------header--------------------*/
+=======
+/*---------------realisation.html----------------*/
+
+main{
+  min-height: 150vh;
+}
+*{
+  padding:0;
+  margin:0;
+}
+
+.slider {
+  width: 500px;
+  overflow: hidden;
+  margin: 50px 100px;
+}
+
+.slides {
+  width: calc(500px * 3);
+  overflow: hidden;
+  animation: glisse 10s infinite;
+}
+
+.slide{
+  float: left;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translatex(0);
+  }
+  33% {
+    transform: translateX(-500px);
+  }
+  43% {
+    transform: translateX(-500px);
+  }
+  66% {
+    transform: translateX(-1000px);
+  }
+  76% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+
+}
+
+#container-real{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F2FBFB;
+  margin-top: 5px;
+}
+
+.tour{
+  margin-top: 90px;
+  margin-right: 180px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.tour2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 100px;
+}
+
+.tour3{
+  margin-top: 60px;
+}
+
+#realisation{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.text-real{
+ 
+  width: 500px;
+  height: 336px;
+  border-radius: 20px;
+}
+
+.textcentre{
+  margin-left: 100px;
+}
+
+/*--------------------fin--------------------*/
+
+/*------------------HEADER-------------------*/
+
+>>>>>>> equipe
 html{
   padding: 0;
   margin: 0;
@@ -51,6 +156,7 @@ li .navig:hover {
   color: red;
   background-color: rgb(78, 77, 80);
 }
+<<<<<<< HEAD
 /*---------------contact.html----------------*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -109,6 +215,12 @@ body{
 /*---------------realisation.html----------------*/
 
 /*--------------------footer--------------------*/
+=======
+/*------------------FIN-----------------------*/
+
+/*-----------------FOOTER---------------------*/
+
+>>>>>>> equipe
 #foot {
   background-color: orange;
   height: 180px;
@@ -159,4 +271,9 @@ h3 {
 .lien {
  text-decoration: none;
  color: white
+<<<<<<< HEAD
 }
+=======
+}
+/*------------------FIN-----------------------*/
+>>>>>>> equipe
