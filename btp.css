@@ -1,3 +1,43 @@
+/*----------------presentation.html--------------*/
+body{
+  margin: 0;
+}
+
+#container-global {
+  width: 900px;
+}
+
+#col-gauche {
+width: 400px;
+float: left;
+text-align: center;
+position: fixed;
+margin-left: 150px;
+font-size: 28px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: gold;
+}
+
+#col-droite {
+  margin-left: 800px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:black;
+  color: whitesmoke;
+}
+.gold{
+  color: gold;
+}
+
+.metiers {
+  width: 600px;
+  height: 400px;
+}
+#back{
+  background-color: black;
+}
+
+/*----------------fin----------------------------*/
+
 /*---------------realisation.html----------------*/
 
 main{
