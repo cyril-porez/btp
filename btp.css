@@ -1,5 +1,86 @@
 /*---------------accueil.html----------------*/
+#commejeveux{
+    height: 150vh;
+    
+}
+.petitimg{
+    background-image: url(https://media0.gmgroup.be/23-107.jpeg);
+    height: 80vh;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.txt{
+    margin-top: 100px;
+}
+#accueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.tarif{
+    height: 200px;
+    width:300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
 
+.acc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+.pnc{
+    text-align: center;
+    color: white;
+}
+.imgacc{
+    height: 100px;
+    width: 100px;
+   align-items: center;
+}
+.imgacc:hover{
+    height: 200px;
+    width: 200px;
+}
+  
+.image_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+  #page{
+     display: flex;
+    flex-direction: column;
+  }
+#dev{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.devis {
+    background-color: #1f07f8;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .devis:hover{
+      background-color: orange;
+  }
+  body{
+      padding: 0px;
+      margin: 0px;
+  }
 /*--------------------fin--------------------*/
 
 /*---------------presentation.html----------------*/
