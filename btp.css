@@ -1,3 +1,88 @@
+/*---------------accueil.html----------------*/
+#commejeveux{
+  height: 150vh;
+  
+}
+.petitimg{
+  background-image: url(https://media0.gmgroup.be/23-107.jpeg);
+  height: 80vh;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.txt{
+  margin-top: 100px;
+}
+#accueil{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.tarif{
+  height: 200px;
+  width:300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.acc{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: white;
+}
+.pnc{
+  text-align: center;
+  color: white;
+}
+.imgacc{
+  height: 100px;
+  width: 100px;
+ align-items: center;
+}
+.imgacc:hover{
+  height: 200px;
+  width: 200px;
+}
+
+.image_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+#page{
+   display: flex;
+  flex-direction: column;
+}
+#dev{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+.devis {
+  background-color: #1f07f8;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.devis:hover{
+    background-color: orange;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*--------------------fin--------------------*/
+
 /*------------------equipe.hml------------------*/
 #container-eq {
   display: flex;
@@ -45,7 +130,6 @@
   background-color: #0C3370;
   color:white;
   cursor: pointer;
-  
 }
 
 .text-eq:hover{
@@ -63,7 +147,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 .img-eq-2 {
@@ -106,11 +190,19 @@ flex-direction: row;
 justify-content: space-between;
 margin-top: 40px;
 }
+
+#définition {
+  margin-top: 20px;
+}
 /*-------------------fin-------------------------*/
 
 /*----------------presentation.html--------------*/
 body{
   margin: 0;
+}
+
+iframe {
+  margin-top: 20px;
 }
 
 #container-global {
@@ -136,11 +228,13 @@ color: gold;
 }
 .gold{
   color: gold;
+  margin-top: 20px;
 }
 
 .metiers {
   width: 600px;
   height: 400px;
+  margin-top: 10px;
 }
 #back{
   background-color: black;
@@ -249,58 +343,7 @@ main{
 /*--------------------fin--------------------*/
 
 /*---------------contact.html----------------*/
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 20px; 
-  resize: vertical 
-}
 
-
-input[type=soumettre] {
-  background-color: #0C3370;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-input[type=soumettre]:hover {
-  background-color: #F95D23;
-}
-
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-body{
-    background-image: url(https://www.agap2.fr/app/uploads/2020/08/travaux-et-mise-en-service.jpg);
-    margin: 0;
-    background-repeat: no-repeat;
-}
-#soumettre{
-    display: flex;
-    justify-content: center;
-}
-.soum{
-    text-align: center;
-}
 /*--------------------fin--------------------*/
 
 /*------------------HEADER-------------------*/
