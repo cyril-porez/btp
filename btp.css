@@ -84,6 +84,7 @@ body{
 /*--------------------fin--------------------*/
 
 /*------------------equipe.hml------------------*/
+
 #container-eq {
   display: flex;
   flex-direction: column;
@@ -343,6 +344,11 @@ main{
 /*--------------------fin--------------------*/
 
 /*---------------contact.html----------------*/
+
+#size-contact {
+  min-height: 105vh;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%;
